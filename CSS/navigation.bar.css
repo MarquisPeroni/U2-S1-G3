@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #fbf7e3; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+button {
+    background-color: #f3df85; 
+    color: #612406; 
+    border: none; 
+    border-radius: 25px; 
+    width: 12em; 
+    height: 3em;
+    font-size: 15px;
+    margin-top: 10px;
+    display: flex;
+}
+
+button img {
+    height: 40px;
+    width: 40px;
+}
